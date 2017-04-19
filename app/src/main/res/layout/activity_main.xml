@@ -4,7 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="20dp"
     tools:context="com.example.administrator.huaweiview.MainActivity">
 
-   
+    <com.example.administrator.huaweiview.MyView
+
+        android:id="@+id/mv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="动起来"
+        android:gravity="center"
+        android:textColor="#fff"
+        />
 </LinearLayout>
