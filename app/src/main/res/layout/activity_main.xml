@@ -6,14 +6,5 @@
     android:background="@color/colorPrimary"
     tools:context="com.example.administrator.huaweiview.MainActivity">
 
-    <com.example.administrator.huaweiview.MyView
-        android:paddingTop="20dp"
-        android:paddingLeft="20dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        />
-
+   
 </LinearLayout>
