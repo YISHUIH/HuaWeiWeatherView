@@ -1,7 +1,8 @@
 # HuaWeiWeatherView
 <br>
 这里根据华为手机天气、手机管家等界面特效<br>
-！[image](https://github.com/YISHUIH/HuaWeiWeatherView/raw/master/hwv.gif)
+![image](https://github.com/YISHUIH/HuaWeiWeatherView/raw/master/hwv.gif)
+![image](https://raw.githubusercontent.com/RoyWallace/CanvasView-master/master/screenshots/canvasLayout.gif)
 <br>
 仿出的圆形刻度盘和水波加速球效果。
 <br>
