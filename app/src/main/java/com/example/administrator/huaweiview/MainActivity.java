@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         tv= (TextView) findViewById(R.id.tv);
         mv= (MyView) findViewById(R.id.mv);
         mv.change(200);
+        mv.moveWaterLine();
        ll= (LinearLayout) findViewById(R.id.ll);
         tv.setOnClickListener(new View.OnClickListener() {
             @Override
