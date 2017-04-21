@@ -39,6 +39,8 @@ mv.moveWaterLine();//让水球动起来 //Java
 代码高亮
 ----------
 在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
+```java
+```
 ```Java
 public static void main(String[]args){} //Java
 ```
