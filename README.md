@@ -1,11 +1,11 @@
 # HuaWeiWeatherView
 <br>
 这里根据华为手机天气、手机管家等界面特效<br>
-![](https://github.com/YISHUIH/HuaWeiWeatherView/raw/master/hwv.gif)
+！[image](https://github.com/YISHUIH/HuaWeiWeatherView/raw/master/hwv.gif)
 <br>
 仿出的圆形刻度盘和水波加速球效果<br>
 你可以通过
-···java
+···Java
 mv.change(200);//动态绘制刻度
 ···
 <br>
@@ -14,7 +14,7 @@ mv.change(200);//动态绘制刻度
 通过调用
 <br>
 ···Java
-mv.moveWaterLine();//让水球动起来
+mv.moveWaterLine();//让水球动起来 //Java
 ···
 <br>
 让水球动起来
