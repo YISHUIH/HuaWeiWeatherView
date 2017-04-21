@@ -5,22 +5,22 @@
 <br>
 仿出的圆形刻度盘和水波加速球效果<br>
 你可以通过
-···Java
+```Java
 mv.change(200);//动态绘制刻度
-···
+```
 <br>
 动态绘制刻度圆盘
 <br>
 通过调用
 <br>
-···Java
+```Java
 mv.moveWaterLine();//让水球动起来 //Java
-···
+```
 <br>
 让水球动起来
 <br>
 通过接口回调，动态同步设置背景颜色<br>
-···Java<br>
+```Java<br>
  mv.setOnAngleColorListener(onAngleColorListener);
  
  private MyView.OnAngleColorListener onAngleColorListener=new MyView.OnAngleColorListener() {
@@ -32,5 +32,5 @@ mv.moveWaterLine();//让水球动起来 //Java
             ll.setBackgroundColor(c);
         }
     };
-···<br>
+```<br>
 
