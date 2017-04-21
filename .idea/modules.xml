@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HuaWeiView.iml" filepath="$PROJECT_DIR$/HuaWeiView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HuaWeiWeatherView.iml" filepath="$PROJECT_DIR$/HuaWeiWeatherView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
