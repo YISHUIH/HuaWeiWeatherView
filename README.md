@@ -4,10 +4,14 @@
 ！[image](https://github.com/YISHUIH/HuaWeiWeatherView/raw/master/hwv.gif)
 <br>
 仿出的圆形刻度盘和水波加速球效果。<br>
+```
+```
 ```Java
 public static void main(String[]args){} //Java
 ```
 你可以通过
+```
+```
 ```Java
 mv.change(200);//动态绘制刻度
 ```
@@ -16,6 +20,8 @@ mv.change(200);//动态绘制刻度
 <br>
 通过调用。
 <br>
+```
+```
 ```Java
 mv.moveWaterLine();//让水球动起来 //Java
 ```
@@ -23,6 +29,8 @@ mv.moveWaterLine();//让水球动起来 //Java
 让水球动起来
 <br>
 通过接口回调，动态同步设置背景颜色<br>
+```
+```
 ```Java<br>
  mv.setOnAngleColorListener(onAngleColorListener);
  
