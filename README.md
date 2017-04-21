@@ -3,7 +3,7 @@
 这里根据华为手机天气、手机管家等界面特效<br>
 ！[image](https://github.com/YISHUIH/HuaWeiWeatherView/raw/master/hwv.gif)
 <br>
-仿出的圆形刻度盘和水波加速球效果<br>
+仿出的圆形刻度盘和水波加速球效果。<br>
 ```Java
 public static void main(String[]args){} //Java
 ```
@@ -12,9 +12,9 @@ public static void main(String[]args){} //Java
 mv.change(200);//动态绘制刻度
 ```
 <br>
-动态绘制刻度圆盘
+动态绘制刻度圆盘。
 <br>
-通过调用
+通过调用。
 <br>
 ```Java
 mv.moveWaterLine();//让水球动起来 //Java
