@@ -27,14 +27,14 @@ public class MainActivity extends AppCompatActivity {
                 mv.change(200);
             }
         });
-
-        mv.setOnAngleColorListener(onAngleColorListener);
         mv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mv.change(200);
             }
         });
+        mv.setOnAngleColorListener(onAngleColorListener);
+
     }
     private MyView.OnAngleColorListener onAngleColorListener=new MyView.OnAngleColorListener() {
         @Override
