@@ -4,6 +4,9 @@
 ！[image](https://github.com/YISHUIH/HuaWeiWeatherView/raw/master/hwv.gif)
 <br>
 仿出的圆形刻度盘和水波加速球效果<br>
+```Java
+public static void main(String[]args){} //Java
+```
 你可以通过
 ```Java
 mv.change(200);//动态绘制刻度
