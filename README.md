@@ -2,7 +2,7 @@
 <br>
 这里根据华为手机天气、手机管家等界面特效<br>
 
-![image](https://github.com/YISHUIH/HuaWeiWeatherView/raw/master/hwv.gif)
+![image](https://github.com/YISHUIH/HuaWeiWeatherView/raw/master/hwwv.gif)
 
 
 <br>
@@ -41,4 +41,5 @@ mv.moveWaterLine();//让水球动起来 //Java
         }
     };
 ```
+
 
