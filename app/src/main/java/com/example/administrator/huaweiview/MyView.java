@@ -70,7 +70,11 @@ public class MyView extends View {
     private int score;
     private int color;
 
+    private boolean isRunning;
     public void change(final float trueAngle) {
+        if (isRunning){
+            return;
+        }
         final Timer timer = new Timer();
         timer.schedule(new TimerTask() {
 
@@ -87,12 +91,14 @@ public class MyView extends View {
                         if (targetAngle >= trueAngle) {// 如果画过刻度大于等于真实角度
                             // 画过刻度=真实角度
                             targetAngle = trueAngle;
-                            // 状态改为1（前进）
+                            // 状态改为2
                             state = 2;
+                            isRunning=false;
                             timer.cancel();
                         }
                         break;
                     case 2:
+                        isRunning=true;
                         targetAngle -= back[back_index];
                         back_index++;
                         if (back_index == back.length) {
@@ -240,15 +246,17 @@ public class MyView extends View {
         // canvas.drawArc(smalloval, 0, 360, false, paint);
         // 设置文本对齐方式，居中对齐
         textPaint.setTextAlign(Paint.Align.CENTER);
-        textPaint.setTextSize(16 * 2);
+        textPaint.setTextSize(clipRadius/2);
         // 画分数
         canvas.drawText("" + score, radius, radius, textPaint);
-        textPaint.setTextSize(16);
+
+        textPaint.setTextSize(clipRadius/6);
+
         // 画固定值分
-        canvas.drawText("分", radius + 45, radius - 16, textPaint);
-        textPaint.setTextSize(16);
+        canvas.drawText("分", radius + clipRadius/2, radius -clipRadius/4, textPaint);
+        textPaint.setTextSize(clipRadius/6);
         // 画固定值立即优化
-        canvas.drawText("点击优化", radius, radius + 42, textPaint);
+        canvas.drawText("点击优化", radius, radius + clipRadius/2, textPaint);
 
     }
 
